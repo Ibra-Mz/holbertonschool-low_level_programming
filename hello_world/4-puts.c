@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
-* Main function return 0
-* followed by new line
-* used fun is puts
-* main return 0
-*/
+ * main - prints a message using puts
+ *
+ * Description: This function prints "Programming is like building a multilingual puzzle"
+ * using the puts function, followed by a new line.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
