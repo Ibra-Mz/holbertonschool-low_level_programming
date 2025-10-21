@@ -3,7 +3,7 @@
 * Main function return 0
 * followed by new line
 * used fun is puts
-* ends with 0
+* main return 0
 */
 int main(void)
 {
