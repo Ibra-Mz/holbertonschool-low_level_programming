@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
 * print a text given
 * followed by new line
 * used fun is puts
