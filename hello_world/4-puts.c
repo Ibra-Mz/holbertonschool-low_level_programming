@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*
-*print a text given
-*followed by new line
-*used fun are puts 
-*ends with 0
+* print a text given
+* followed by new line
+* used fun are puts 
+* ends with 0
 */
 int main(void)
 {
