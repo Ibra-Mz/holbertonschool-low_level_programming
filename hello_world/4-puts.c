@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* print a text given
+* Main function return 0
 * followed by new line
 * used fun is puts
 * ends with 0
