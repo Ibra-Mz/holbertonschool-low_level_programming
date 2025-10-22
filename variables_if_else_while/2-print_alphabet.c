@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
-* main - starting fun
-*
-* declare char series
-* print alphabet in lowercase
-* print one letter per ligne
-*
-* return: 0 if code is valide
-*/
+ * main - starting point of the program
+ *
+ * Description: Prints the alphabet in lowercase,
+ * followed by a new line.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 char i;
