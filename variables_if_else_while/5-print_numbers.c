@@ -5,7 +5,7 @@
 * Declare the variable i
 * loop to display number 0-9
 *
-* Return : return 0 means succes
+* Return: return 0 if succes
 */
 int main(void)
 {
