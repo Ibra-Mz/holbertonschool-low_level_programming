@@ -2,7 +2,7 @@
 /**
 * main - starting point of the program
 *
-* Declare the variable i 
+* Declare the variable i
 * loop to display possible comb of single digit numbers
 *
 * Return: return 0 if succes
