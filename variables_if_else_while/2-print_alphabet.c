@@ -4,9 +4,9 @@
 *
 * declare char series
 * print alphabet in lowercase
-* one letter per ligne
+* print one letter per ligne
 *
-* main return 0 : succes
+* return: 0 if code is valide
 */
 int main(void)
 {
