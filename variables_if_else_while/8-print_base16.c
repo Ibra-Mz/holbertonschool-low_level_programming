@@ -2,8 +2,8 @@
 /**
 * main - starting point of the program
 *
-* Declare the variable i
-* loop to display number 0-9
+* Declare the variable i and j
+* loop to display number of base 16
 *
 * Return: return 0 if succes
 */
