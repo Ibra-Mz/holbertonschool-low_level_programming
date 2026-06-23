@@ -1,25 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers of base 16 starting from 0
+ * main - prints all possible combinations of single-digit numbers
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 char i;
-char j;
 i = 0;
-j = 'a';
 while (i <= 9)
 {
 putchar (i + '0');
-i++;
-}
-while (j <= 'f')
+if (i != 9)
 {
-putchar (j);
-j++;
+putchar (',');
+putchar (' ');
+}
+i++;
 }
 putchar ('\n');
 return (0);
