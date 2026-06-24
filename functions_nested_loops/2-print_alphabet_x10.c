@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the alphabet in lowercase followed by a new line
+ * print_alphabet_x10 - prints the alphabet in lowercase followed by a new line
  */
 void print_alphabet_x10(void)
 {
 char j;
 char i;
-i = '0'; 
+i = '0';
 while (i <= '9')
 {
 j = 'a';
