@@ -7,9 +7,9 @@
 int main(void)
 {
 int choice = 1;
-int A = 0;
-int B = 0;
-int result = 0;
+float A = 0;
+float B = 0;
+float result = 0;
 printf("simple calculator\n");
 while (choice != 0)
 {
@@ -27,29 +27,45 @@ printf("Invalid choice\n");
 if (choice == 1)
 {
 printf("A: ");
-scanf("%d", &A);
+scanf("%f", &A);
 printf("B: ");
-scanf("%d", &B);
+scanf("%f", &B);
 result = (A + B);
-printf("Result: %d\n", result);
+printf("Result: %f\n", result);
 }
 if (choice == 2)
 {
 printf("A: ");
-scanf("%d", &A);
+scanf("%f", &A);
 printf("B: ");
-scanf("%d", &B);
+scanf("%f", &B);
 result = (A - B);
-printf("Result: %d\n", result);
+printf("Result: %f\n", result);
 }
 if (choice == 3)
 {
 printf("A: ");
-scanf("%d", &A);
+scanf("%f", &A);
 printf("B: ");
-scanf("%d", &B);
+scanf("%f", &B);
 result = (A * B);
-printf("Result: %d\n", result);
+printf("Result: %f\n", result);
+}
+if (choice == 4)
+{
+printf("A: ");
+scanf("%f", &A);
+printf("B: ");
+scanf("%f", &B);
+if (B == 0)
+{
+printf("Error: division by zero\n");
+}
+else
+{
+result = (A / B);
+printf("Result: %g\n", result);
+}
 }
 }
 return (0);
