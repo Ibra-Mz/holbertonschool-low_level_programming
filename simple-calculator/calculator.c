@@ -7,11 +7,9 @@
 int main(void)
 {
 int choice = 1;
-/**
 int A = 0;
 int B = 0;
 int result = 0;
-*/
 printf("simple calculator\n");
 while (choice != 0)
 {
@@ -25,6 +23,15 @@ printf("Bye!\n");
 if (choice < 0 || choice > 4)
 {
 printf("Invalid choice\n");
+}
+if (choice == 1)
+{
+printf("A: ");
+scanf("%d", &A);
+printf("B: ");
+scanf("%d", &B);
+result = (A + B);
+printf("Result: %d\n", result);
 }
 }
 return (0);
